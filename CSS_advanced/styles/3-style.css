@@ -1,0 +1,41 @@
+/* Based on 2-style.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Body */
+body {
+  color: var(--text-color);
+}
+
+/* Links */
+a {
+  color: var(--text-color);
+}
+
+/* Hidden */
+.visually-hidden {
+  display: none;
+}
+
+/* Category */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Tagline */
+.section-tagline {
+  color: var(--color-primary);
+}
+
